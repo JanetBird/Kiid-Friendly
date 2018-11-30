@@ -6,8 +6,9 @@ const restaurants = [
         address: '123 Street, A1B 2C3',
         kfRating: 1,
         highchairs: 1,
-        strollerParking: 'yes',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.'
+        strollerAcc: 'yes',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.',
+        likes: 10
     },
     {
         img: 'url2',
@@ -16,8 +17,9 @@ const restaurants = [
         address: '123 Street, A1B 2C3',
         kfRating: 1,
         highchairs: 1,
-        strollerParking: 'yes',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.'
+        strollerAcc: 'yes',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.',
+        likes: 20
     },
     {
         img: 'url3',
@@ -26,8 +28,9 @@ const restaurants = [
         address: '123 Street, A1B 2C3',
         kfRating: 1,
         highchairs: 1,
-        strollerParking: 'yes',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.'
+        strollerAcc: 'yes',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.',
+        likes: 30
     },
     {
         img: 'url4',
@@ -36,8 +39,9 @@ const restaurants = [
         address: '123 Street, A1B 2C3',
         kfRating: 1,
         highchairs: 1,
-        strollerParking: 'yes',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.'
+        strollerAcc: 'yes',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.',
+        likes: 40
     },
     {
         img: 'url5',
@@ -46,8 +50,9 @@ const restaurants = [
         address: '123 Street, A1B 2C3',
         kfRating: 1,
         highchairs: 1,
-        strollerParking: 'yes',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.'
+        strollerAcc: 'yes',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.',
+        likes: 50
     },
     {
         img: 'url6',
@@ -56,8 +61,9 @@ const restaurants = [
         address: '123 Street, A1B 2C3',
         kfRating: 1,
         highchairs: 1,
-        strollerParking: 'yes',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.'
+        strollerAcc: 'yes',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.',
+        likes: 60
     },
     {
         img: 'url7',
@@ -66,8 +72,9 @@ const restaurants = [
         address: '123 Street, A1B 2C3',
         kfRating: 1,
         highchairs: 1,
-        strollerParking: 'yes',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.'
+        strollerAcc: 'yes',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.',
+        likes: 70
     },
     {
         img: 'url8',
@@ -76,8 +83,9 @@ const restaurants = [
         address: '123 Street, A1B 2C3',
         kfRating: 1,
         highchairs: 1,
-        strollerParking: 'yes',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.'
+        strollerAcc: 'yes',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.',
+        likes: 80
     },
     {
         img: 'url9',
@@ -86,8 +94,9 @@ const restaurants = [
         address: '123 Street, A1B 2C3',
         kfRating: 1,
         highchairs: 1,
-        strollerParking: 'yes',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.'
+        strollerAcc: 'yes',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nobis laudantium ipsam ea ad totam et blanditiis ex perspiciatis, fugiat iusto ullam exercitationem nostrum velit natus harum eligendi eveniet aliquam.',
+        likes: 90
     },
 ]
 
