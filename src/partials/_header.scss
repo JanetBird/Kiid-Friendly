@@ -1,0 +1,60 @@
+header {
+    background: $color-accent;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__nav {
+        display: flex;
+        list-style: none;
+        padding: 20px 0;
+            a {
+                color:  #f6f6f6;
+                padding: 10px;
+                text-decoration: none;
+                @include light-font(1.6rem);
+                font-weight: 700;
+                transition: all 0.5s;
+            }
+            li {
+                margin: 0 10px;
+            }
+            a:hover {
+                    color: $color-accent3;
+                    border-radius: 5px;
+            }
+            li:nth-child(4) {
+                background: $color-maintxt;
+                border-radius: 5px;
+                box-shadow: 3px 3px 5px rgb(46, 46, 46);
+                transition: all 0.5s;
+                &:hover {
+                      box-shadow: none;
+                }
+            }
+        } 
+
+}
+
+svg {
+    width: 300px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    &__img {
+        width: 60%;
+    }
+    &__text {
+        @include light-font(1.8rem);
+        line-height: 1;
+        p {
+            width: 80%;
+        }
+    }
+}

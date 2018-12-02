@@ -1,0 +1,73 @@
+$color-maintxt: #1f1f1f;
+$color-sectxt: #f6f6f6;
+$color-accent: #FF8770;
+$color-accent2: #5E6472;
+$color-accent3: #62E0C7;
+$color-accent4: #F9EBBD;
+
+@mixin light-font($fontSize) {
+    font-size: $fontSize;
+    color: $color-sectxt;
+    margin: 0;
+} 
+
+@mixin dark-font($fontSize) {
+    font-size: $fontSize;
+    color: $color-maintxt;
+    margin: 0;
+}  
+
+@mixin text-font($fontSize) {
+    font-family: 'Roboto', sans-serif;
+    font-size: $fontSize;
+    color: $color-accent2;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 62.5%;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #f6f6f6;
+    line-height: 1; 
+    text-align: left;
+}
+
+h3 {
+     @include dark-font(2rem);
+     text-align: left;
+     line-height: 1;
+}
+
+h4 {
+    line-height: 1;
+    @include dark-font(1.8rem);
+    color: $color-accent;
+    margin-bottom: 5px;
+}
+
+h5 {
+    @include dark-font(1.4rem);
+    color: $color-accent2;
+    margin-bottom: 10px;
+}
+
+input {
+            @include dark-font(1.6rem);
+            margin: 25px 0 100px 0;
+        }
+
+p, label {
+    @include dark-font(1.4rem);
+    text-align: left;
+}
+    
