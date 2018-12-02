@@ -319,6 +319,12 @@ select {
     background: #f6f6f6;
     box-shadow: none; }
 
+.locationsMap {
+  margin-top: 100px;
+  width: 80%;
+  height: 500px;
+  background: red; }
+
 footer {
   background: #1f1f1f;
   text-align: center; }

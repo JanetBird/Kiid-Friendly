@@ -3,7 +3,7 @@ import React from 'react';
 const Restaurant = (props) => {
         return (
             <div>
-                <section className="restaurantCard">
+                <section className="restaurantCard wrapper">
                     <div className="restaurantCard__img">
                         <img src={props.img} alt="Interior of restaurant"/>
                     </div>
