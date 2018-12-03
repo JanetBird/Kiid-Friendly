@@ -341,8 +341,8 @@ footer {
 @media (max-width: 1360px) {
   .header__nav {
     margin-right: 60px; }
-    .header__nav svg {
-      margin-left: 60px; }
+  .header svg {
+    margin-left: 60px; }
   .title__img {
     margin-left: 20px; } }
 

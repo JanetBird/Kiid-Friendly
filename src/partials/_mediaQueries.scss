@@ -1,6 +1,8 @@
 @media (max-width: 1360px) {
-    .header__nav {
-        margin-right: 60px;
+    .header {
+        &__nav {
+            margin-right: 60px;
+        }
         svg {
             margin-left: 60px;
         }
@@ -9,8 +11,8 @@
     .title__img {
         margin-left: 20px;
     }
-}
 
+}
 @media (max-width: 1150px) {
 
     .hamburger {
