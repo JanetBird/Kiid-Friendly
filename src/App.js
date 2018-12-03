@@ -8,6 +8,7 @@ import Restaurant from './Restaurant';
 import Footer from './Footer';
 
 
+
 //FIREBASE DATABASE
 const dbRef = firebase.database().ref();
 

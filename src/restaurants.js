@@ -1,22 +1,9 @@
-import imageLDC from './assets/image-LDC.jpg';
-import imageMLT from './assets/image-MLT.png';
-import imageSLB from './assets/image-SLB.jpg';
-import imageWF from './assets/image-WF.jpg';
-import imageBV from './assets/image-BV.jpg';
-import imageTA from './assets/image-TA.jpg';
-import imageCAP from './assets/image-CAP.jpg';
-import imageTOSF from './assets/image-TOSF.jpg';
-import imageSAT from './assets/image-SAT.jpg';
-import imagePP from './assets/image-PP.jpg';
-import imageTLVR from './assets/image-TLVR.jpg';
-import imagePVM from './assets/image-PVM.jpg';
-import imageCPO from './assets/image-CPO.jpg';
-import imageA8S from './assets/image-A8S.jpg';
-import imageBSH from './assets/image-BSH.jpg';
+
+
 
 const restaurants = [
     {   
-        img: imageLDC,
+        img: './assets/image-LDC.jpg',
         name: 'Lazy Daisy\'s Cafe',
         neighbourhood: 'East End',
         address: '1515 Gerrard Street East',
@@ -27,7 +14,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: imagePVM,
+        img: './assets/image-PVM.jpg',
         name: 'Pizzeria Via Mercanti (Gerrard)',
         neighbourhood: 'East End',
         address: '1499 Gerrard St. E.',
@@ -38,7 +25,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: imageMLT,
+        img: './assets/image-MLT.png',
         name: 'Maple Leaf Tavern',
         neighbourhood: 'East End',
         address: '955 Gerrard Street East',
@@ -49,7 +36,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: imageSLB,
+        img: './assets/image-SLB.jpg',
         name: 'Sugar Loaf Bakery',
         neighbourhood: 'East End',
         address: '1062 Gerrard St East',
@@ -60,7 +47,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: imageBSH,
+        img: './assets/image-BSH.jpg',
         name: 'Barque Smokehouse',
         neighbourhood: 'West End',
         address: '299 Roncesvalles Ave',
@@ -71,7 +58,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: imageWF,
+        img: './assets/image-WF.jpg',
         name: 'Wallflower',
         neighbourhood: 'West End',
         address: '1665 Dundas St W',
@@ -82,7 +69,7 @@ const restaurants = [
         likes: 0
     },
     {   
-        img: imageBV,
+        img: './assets/image-BV.jpg',
         name: 'Bar Vespa',
         neighbourhood: 'West End',
         address: '167 East Liberty St.',
@@ -93,7 +80,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: imageTA,
+        img: './assets/image-TA.jpg',
         name: 'The Ace',
         neighbourhood: 'West End',
         address: '231A Roncesvalles Ave',
@@ -104,7 +91,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: imageTLVR,
+        img: './assets/image-TLVR.jpg',
         name: 'Lakeview Restaurant',
         neighbourhood: 'West End',
         address: '1132 Dundas St. West',
@@ -115,7 +102,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: imageCPO,
+        img: './assets/image-CPO.jpg',
         name: 'Cafe Polonez',
         neighbourhood: 'West End',
         address: '195 Roncesvalles Avenue',
@@ -126,7 +113,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: imageA8S,
+        img: './assets/image-A8S.jpg',
         name: 'August 8 Spadina',
         neighbourhood: 'Downtown',
         address: '331 Spadina Ave',
@@ -137,7 +124,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: imageCAP,
+        img: './assets/image-CAP.jpg',
         name: 'Caplansky\'s',
         neighbourhood: 'Downtown',
         address: '356 College St',
@@ -148,7 +135,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: imageTOSF,
+        img: './assets/image-TOSF.jpg',
         name: 'The Old Spaghetti Factory',
         neighbourhood: 'Downtown',
         address: '54 The Esplanade',
@@ -159,7 +146,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: imageSAT,
+        img: './assets/image-SAT.jpg',
         name: 'Salt and Tobacoo',
         neighbourhood: 'Downtown',
         address: '521 Parliament St',
@@ -170,7 +157,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: imagePP,
+        img: './assets/image-PP.jpg',
         name: 'Piano Piano',
         neighbourhood: 'Downtown',
         address: '88 Harbord St',
