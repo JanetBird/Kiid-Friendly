@@ -5,11 +5,8 @@ import "./styles.css";
 import firebase from './firebase';
 import Header from './Header';
 import Main from './Main';
-import Map from './GoogleMap';
-
-
-//COMPONENTS BELOW//
 import Restaurant from './Restaurant';
+import Footer from './Footer';
 
 
 //FIREBASE DATABASE
@@ -102,14 +99,8 @@ class App extends Component {
               );
             })}
           </section>
-          <section>
-            <div style={{width:300, height:600, background:'red'}}>
-              <Map />
-            </div>
-            
-          </section>
         </section>
-
+        <Footer />
       </div>
     );
   }

@@ -8,7 +8,7 @@
         align-items: flex-start;
         width: 50%;
         list-style: none;
-        padding: 100px 50px; 
+        padding: 100px 60px; 
         a, {
             background: $color-maintxt;
             @include light-font(1.6rem);
@@ -50,7 +50,7 @@
 select {
     @include dark-font(1.6rem);
     width: 200px;
-    margin-top: 20px;
+    margin: 10px 0 50px 0;
     border-radius: 5px;
 }
 
@@ -58,7 +58,6 @@ select {
     background: white;
     display: flex;
     text-align: left;
-    margin: 20px;
     padding: 25px;
     border-radius: 2px;
     box-shadow: 2px 2px 5px rgb(121, 121, 121);

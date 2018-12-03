@@ -1,16 +1,16 @@
-import image4 from './assets/image-4.jpg';
-import image5 from './assets/image-5.png';
-import image6 from './assets/image-6.jpg';
-import image7 from './assets/image-7.jpg';
-import image8 from './assets/image-8.jpg';
-import image9 from './assets/image-9.jpg';
-import image10 from './assets/image-10.jpg';
-import image11 from './assets/image-11.jpg';
-import image12 from './assets/image-12.jpg';
+import imageLDC from './assets/image-LDC.jpg';
+import imageMLT from './assets/image-MLT.png';
+import imageSLB from './assets/image-SLB.jpg';
+import imageWF from './assets/image-WF.jpg';
+import imageBV from './assets/image-BV.jpg';
+import imageTA from './assets/image-TA.jpg';
+import imageCAP from './assets/image-CAP.jpg';
+import imageTOSF from './assets/image-TOSF.jpg';
+import imageSAT from './assets/image-SAT.jpg';
 
 const restaurants = [
     {   
-        img: image4,
+        img: imageLDC,
         name: 'Lazy Daisy\'s Cafe',
         neighbourhood: 'East End',
         address: '1515 Gerrard Street East',
@@ -21,7 +21,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: image5,
+        img: imageMLT,
         name: 'Maple Leaf Tavern',
         neighbourhood: 'East End',
         address: '955 Gerrard Street East',
@@ -32,7 +32,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: image6,
+        img: imageSLB,
         name: 'Sugar Loaf Bakery',
         neighbourhood: 'East End',
         address: '1062 Gerrard St East',
@@ -43,7 +43,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: image7,
+        img: imageWF,
         name: 'Wallflower',
         neighbourhood: 'West End',
         address: '1665 Dundas St W',
@@ -54,7 +54,7 @@ const restaurants = [
         likes: 0
     },
     {   
-        img: image8,
+        img: imageBV,
         name: 'Bar Vespa',
         neighbourhood: 'West End',
         address: '167 East Liberty St.',
@@ -65,7 +65,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: image9,
+        img: imageTA,
         name: 'The Ace',
         neighbourhood: 'West End',
         address: '231A Roncesvalles Ave',
@@ -76,7 +76,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: image10,
+        img: imageCAP,
         name: 'Caplansky\'s',
         neighbourhood: 'Downtown',
         address: '356 College St',
@@ -87,7 +87,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: image11,
+        img: imageTOSF,
         name: 'The Old Spaghetti Factory',
         neighbourhood: 'Downtown',
         address: '54 The Esplanade',
@@ -98,7 +98,7 @@ const restaurants = [
         likes: 0
     },
     {
-        img: image12,
+        img: imageSAT,
         name: 'Salt and Tobacoo',
         neighbourhood: 'Downtown',
         address: '521 Parliament St',

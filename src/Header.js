@@ -33,6 +33,7 @@ const Header = () => {
                     <path d="M281.92,118.67a7.25,7.25,0,1,0,7.25,7.25A7.25,7.25,0,0,0,281.92,118.67Z" transform="translate(-226.42 -113.78)" />
                     <path d="M274.67,138,265,147.67l3.42,3.42,6.25-6.25V167h4.83v-9.67h4.83V167h4.83V138Z" transform="translate(-226.42 -113.78)" />
                 </svg>
+                <p className="hamburger"><i class="fas fa-bars"></i></p>
                 <nav className="header__nav">
                     <li className="header__nav__list"><a href="#">For Restaurants</a></li>
                     <li className="header__nav__list"><a href="#">For Families</a></li>
@@ -42,8 +43,8 @@ const Header = () => {
             </section> 
 
             <section className="title title--main wrapper">
-                <img src={img1} alt="gold utensils with a children's utensil" />
-                <div>
+                <img className="title__img" src={img1} alt="gold utensils with a children's utensil" />
+                <div className="title__text">
                     <h2>Make Plans without the Stress</h2>
                     <p>Find all the kid friendly cafes and restaurants in the city.</p>
                 </div>
